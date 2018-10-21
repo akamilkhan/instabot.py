@@ -97,3 +97,7 @@ ENV/
 # IDEs
 .idea/
 *.iml
+
+# personal files
+akk_*
+*.db
