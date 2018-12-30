@@ -1,17 +1,16 @@
 # InstaBot
 
 ---
+### Changelog
+30-12-2018: Merged with https://github.com/dimisdas/instabot.py
 
-### On 03-Apr-2018, I wiped out the existing issues/PRs associated with this repo, they've built up due to some neglect. Now, there's a clean slate. New issues must follow the format provided and PRs will be reviewed and potentially accepted. Contributors are encouraged to review existing issues and submit changes.
+---
 
 ### Please do not clone this repo and publish it as your own. Fork the repo if you wish to publish any changes.
 
 ---
 
 > Toolkit for building automated Instagram bots without direct access to the Instagram API or passsing through the review process.
-
-[![Donate](https://img.shields.io/badge/PayPal-Donate-brightgreen.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=7BMM6JGE73322&lc=US)
-[![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/joinchat/DYKH-0G_8hsDDoN_iE8ZlA)
 
 ## Parameters
 | Parameter            | Type|                Description                           |        Default value             |
@@ -93,3 +92,10 @@ The following video tutorials demo setting up and running the bot:
 
 - [Telegram Group](https://t.me/joinchat/DYKH-0G_8hsDDoN_iE8ZlA)
 - [Facebook Group](https://www.facebook.com/groups/instabot/)
+
+## Installation Steps
+- Install python version >= 3.5 if not already installed.
+- Install pip3 if not already installed.
+- Install instaloader. ```pip3 -r requirements.txt```
+- Add username and passsword in example.py
+- Run example.py. ```python3 example.py```
